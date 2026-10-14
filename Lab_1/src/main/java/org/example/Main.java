@@ -25,6 +25,10 @@ public class Main {
             System.out.println("Permuted alphabet: " + alphabet);
         }
 
+
+
+
+
         String text = readText("Text: ", false);
         int shift = operation == 1 ? key : -key;
         StringBuilder result = new StringBuilder();
