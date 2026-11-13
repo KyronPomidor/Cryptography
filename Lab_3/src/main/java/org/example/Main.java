@@ -74,7 +74,7 @@ public class Main {
         return -1;
     }
 
-    // Prepare the message: insert X between double letters
+    // insert X between double letters
     static String prepare(String text) {
         String result = "";
         for (int i = 0; i < text.length(); i++) {
